@@ -1,0 +1,50 @@
+body {
+        background-color:#FFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:14px;
+        color:#000000;
+        text-align:center;
+}
+
+.mainPanel {
+        margin:0 auto;
+        margin-top:15px;
+        padding-bottom:10px;
+
+    background-color: rgba(189, 195, 199,0.6);
+    background-repeat: no-repeat;
+    min-width:200px;
+    max-width:700px;
+        left:50%;
+
+    border: 1px solid rgb(47, 79, 79);
+    border-radius: 8px 8px 8px 8px;
+        text-align:center;
+}
+
+#playerScores{
+        margin-top:35px;
+        /*overflow:scroll;*/
+}
+
+#playerScores table{
+        margin:0 auto;
+        border-spacing: 10px 0;
+}
+
+#playerScores th{
+        border-bottom:1px solid black;
+        min-width:80px;
+}
+
+#statusUp{
+        color:green;
+}
+
+#statusDown{
+        color:red;
+        text-decoration: underline;
+}
